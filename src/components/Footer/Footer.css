@@ -1,0 +1,17 @@
+.footer {
+    background-color: #6278F7;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 4rem 2rem;
+
+    color: white;
+}
+
+    .footer__icons {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
