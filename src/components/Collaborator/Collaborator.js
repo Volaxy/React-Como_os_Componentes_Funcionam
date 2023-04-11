@@ -1,5 +1,3 @@
-// When not have a "{}", that means is a "export default"
-// When have a "{}", that means is not a "export default"
 import { AiFillCloseCircle } from 'react-icons/ai';
 
 import "./Collaborator.css";

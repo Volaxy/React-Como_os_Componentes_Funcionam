@@ -1,6 +1,6 @@
 # React - Como os Componentes Funcionam
 
-Curso da Alura sobre BLABLABLA
+Curso da Alura sobre como os componentes do React funcionam e como eles se comunicam entre si.
 
 ## Objetivo Final &#x1F3AF;
 
@@ -12,11 +12,9 @@ URL do curso -> [React - Como os Componentes Funcionam](https://cursos.alura.com
 
 ## Links Úteis &#x1F517;
 * [React Icons](https://react-icons.github.io/react-icons) - Biblioteca de ícones para serem utilizadas no **React**.
+* [Hex to RGBA](https://www.npmjs.com/package/hex-to-rgba) - Biblioteca que muda uma cor de Hexacimal para RGBA.
 
 ## Siglas &#x1F5FA;
-*
-
-## Atalhos &#x2328;
 *
 
 ***
@@ -27,3 +25,9 @@ URL do curso -> [React - Como os Componentes Funcionam](https://cursos.alura.com
 * Como instalar novas dependências na sua aplicação.
 * Diferença entre export e export default.
 * Utilizar a biblioteca **React Icons**.
+
+## 02 - Como o React vê um Componente
+* O que é Virtual DOM.
+* Como o React escuta uma mudança e porque precisamos de um state para isto.
+* Diferença de imperatividade e declaratividade.
+* Uso da biblioteca **hex-to-rgba** do **npm**.

@@ -5,43 +5,36 @@ import Form from './components/Form/Form';
 import Team from './components/Team/Team';
 
 function App() {
-    const teams = [
+    const [teams, setTeams] = useState([
         {
             name: "Programação",
-            primaryColor: "#57c278",
-            secondaryColor: "#d9f7e9"
+            color: "#57c278",
         },
         {
             name: "Front-End",
-            primaryColor: "#82cffa",
-            secondaryColor: "#e8f8ff"
+            color: "#82cffa",
         },
         {
             name: "Data Science",
-            primaryColor: "#a6d157",
-            secondaryColor: "#f0f8e2"
+            color: "#a6d157",
         },
         {
             name: "Devops",
-            primaryColor: "#e06b69",
-            secondaryColor: "#fde7e8"
+            color: "#e06b69",
         },
         {
             name: "UX e Design",
-            primaryColor: "#db6ebf",
-            secondaryColor: "#fae9f5"
+            color: "#db6ebf",
         },
         {
             name: "Mobile",
-            primaryColor: "#ffba05",
-            secondaryColor: "#fff5d9"
+            color: "#ffba05",
         },
         {
             name: "Inovação e Gestão",
-            primaryColor: "#ff8a29",
-            secondaryColor: "#ffeedf"
+            color: "#ff8a29",
         }
-    ];
+    ]);
 
     const inicial = [
         {
@@ -196,9 +189,19 @@ function App() {
         console.log("Deleting Collaborator");
     }
 
+    // Every time a component changes its state, React compares the real DOM to the Virtual DOM, checking what exactly needs to be changed in the DOM
+    function changeTeamColor(color, teamName) {
+        setTeams(teams.map(team => {
+            if(team.name === teamName) {
+                team.color = color;
+            }
+
+            return team;
+        }));
+    }
+
     return (
         <div className="App">
-            {/* Each component is interpreted by the React like an object */}
             <Banner />
 
             <Form teams={teams.map(team => team.name)} onRegisterCollaborator={collaborator => setCollaborators([...collaborators, collaborator])} />
@@ -207,10 +210,10 @@ function App() {
                 <Team
                     key={team.name}
                     name={team.name}
-                    primaryColor={team.primaryColor}
-                    secondaryColor={team.secondaryColor}
+                    teamColor={team.color}
                     collaborators={collaborators.filter(collaborator => collaborator.team === team.name)}
                     onDelete={deleteCollaborator}
+                    onChangeTeamColor={changeTeamColor}
                 />
             )}
 

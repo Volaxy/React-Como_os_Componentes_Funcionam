@@ -1,4 +1,6 @@
 .team {
+    position: relative;
+    
     padding: 32px;
 
     text-align: center;
@@ -17,6 +19,12 @@
         font-size: 32px;
 
         white-space: nowrap;
+    }
+
+    .team__input-color {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
     }
 
     .team__collaborators {
