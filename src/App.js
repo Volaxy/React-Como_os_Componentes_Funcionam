@@ -51,168 +51,192 @@ function App() {
             name: 'JULIANA AMOASEI',
             office: 'Desenvolvedora de software e instrutora',
             image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            team: teams[0].name
+            team: teams[0].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'DANIEL ARTINE',
             office: 'Engenheiro de Software na Stone Age',
             image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-            team: teams[0].name
+            team: teams[0].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'GUILHERME LIMA',
             office: 'Desenvolvedor Python e JavaScript na Alura',
             image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-            team: teams[0].name
+            team: teams[0].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'PAULO SILVEIRA',
             office: 'Hipster e CEO da Alura',
             image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-            team: teams[0].name
+            team: teams[0].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'JULIANA AMOASEI',
             office: 'Desenvolvedora de software e instrutora',
             image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            team: teams[1].name
+            team: teams[1].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'DANIEL ARTINE',
             office: 'Engenheiro de Software na Stone Age',
             image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-            team: teams[1].name
+            team: teams[1].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'GUILHERME LIMA',
             office: 'Desenvolvedor Python e JavaScript na Alura',
             image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-            team: teams[1].name
+            team: teams[1].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'PAULO SILVEIRA',
             office: 'Hipster e CEO da Alura',
             image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-            team: teams[1].name
+            team: teams[1].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'JULIANA AMOASEI',
             office: 'Desenvolvedora de software e instrutora',
             image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            team: teams[2].name
+            team: teams[2].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'DANIEL ARTINE',
             office: 'Engenheiro de Software na Stone Age',
             image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-            team: teams[2].name
+            team: teams[2].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'GUILHERME LIMA',
             office: 'Desenvolvedor Python e JavaScript na Alura',
             image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-            team: teams[2].name
+            team: teams[2].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'PAULO SILVEIRA',
             office: 'Hipster e CEO da Alura',
             image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-            team: teams[2].name
+            team: teams[2].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'JULIANA AMOASEI',
             office: 'Desenvolvedora de software e instrutora',
             image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            team: teams[3].name
+            team: teams[3].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'DANIEL ARTINE',
             office: 'Engenheiro de Software na Stone Age',
             image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-            team: teams[3].name
+            team: teams[3].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'GUILHERME LIMA',
             office: 'Desenvolvedor Python e JavaScript na Alura',
             image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-            team: teams[3].name
+            team: teams[3].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'PAULO SILVEIRA',
             office: 'Hipster e CEO da Alura',
             image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-            team: teams[3].name
+            team: teams[3].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'JULIANA AMOASEI',
             office: 'Desenvolvedora de software e instrutora',
             image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            team: teams[4].name
+            team: teams[4].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'DANIEL ARTINE',
             office: 'Engenheiro de Software na Stone Age',
             image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-            team: teams[4].name
+            team: teams[4].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'GUILHERME LIMA',
             office: 'Desenvolvedor Python e JavaScript na Alura',
             image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-            team: teams[4].name
+            team: teams[4].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'PAULO SILVEIRA',
             office: 'Hipster e CEO da Alura',
             image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-            team: teams[4].name
+            team: teams[4].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'JULIANA AMOASEI',
             office: 'Desenvolvedora de software e instrutora',
             image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            team: teams[5].name
+            team: teams[5].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'DANIEL ARTINE',
             office: 'Engenheiro de Software na Stone Age',
             image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-            team: teams[5].name
+            team: teams[5].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'GUILHERME LIMA',
             office: 'Desenvolvedor Python e JavaScript na Alura',
             image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-            team: teams[5].name
+            team: teams[5].name,
+            favorite: false
         },
         {
             id: uuidv4(),
             name: 'PAULO SILVEIRA',
             office: 'Hipster e CEO da Alura',
             image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-            team: teams[5].name
+            team: teams[5].name,
+            favorite: false
         },
     ]
 
@@ -222,7 +246,6 @@ function App() {
         setCollaborators(collaborators.filter(collaborator => collaborator.id !== collaboratorId));
     }
 
-    // Every time a component changes its state, React compares the real DOM to the Virtual DOM, checking what exactly needs to be changed in the DOM
     function changeTeamColor(color, teamId) {
         setTeams(teams.map(team => {
             if(team.id === teamId) {
@@ -231,6 +254,16 @@ function App() {
 
             return team;
         }));
+    }
+
+    function favorite(id) {
+        setCollaborators(collaborators.map(collaborator => {
+            if(collaborator.id === id) {
+                collaborator.favorite = !collaborator.favorite;
+            }
+
+            return collaborator;
+        }))
     }
 
     return (
@@ -252,6 +285,7 @@ function App() {
                     collaborators={collaborators.filter(collaborator => collaborator.team === team.name)}
                     onDelete={deleteCollaborator}
                     onChangeTeamColor={changeTeamColor}
+                    onFavorite={favorite}
                 />
             )}
 

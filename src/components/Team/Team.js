@@ -19,7 +19,9 @@ const Team = (props) => {
                         name={collaborator.name}
                         office={collaborator.office}
                         image={collaborator.image}
+                        favorite={collaborator.favorite}
                         onDelete={props.onDelete}
+                        onFavorite={props.onFavorite}
                     />
                 )}
             </div>

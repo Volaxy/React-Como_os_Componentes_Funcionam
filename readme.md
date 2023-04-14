@@ -14,9 +14,6 @@ URL do curso -> [React - Como os Componentes Funcionam](https://cursos.alura.com
 * [React Icons](https://react-icons.github.io/react-icons) - Biblioteca de ícones para serem utilizadas no **React**.
 * [Hex to RGBA](https://www.npmjs.com/package/hex-to-rgba) - Biblioteca que muda uma cor de Hexacimal para RGBA.
 
-## Siglas &#x1F5FA;
-*
-
 ***
 
 ## 01 - O que são Componentes
@@ -37,3 +34,9 @@ URL do curso -> [React - Como os Componentes Funcionam](https://cursos.alura.com
 * A diferença entre two-way data binding e one-way data binding.
 * Por que o React utiliza one-way data binding.
 * Por que utilizar id é importante no React.
+
+## 04 - Finalizando o Projeto
+* Como criar um ternário para renderizar de forma opcional.
+* Como renderizar condicionais de outras formas.
+* Como refatorar um componente sem atrapalhar a execução primária dele.
+* A importância de se refatorar um componente em projetos React.
