@@ -11,7 +11,10 @@ const Form = (props) => {
     const [image, setImage] = useState("");
     const [team, setTeam] = useState("");
 
-    function onSave(event) {
+    const [teamName, setTeamName] = useState("");
+    const [teamColor, setTeamColor] = useState("");
+
+    function onSaveCollaborator(event) {
         event.preventDefault();
 
         props.onRegisterCollaborator({name, office, image, team});
@@ -22,13 +25,19 @@ const Form = (props) => {
         setTeam("");
     }
 
+    function onSaveTeam(event) {
+        event.preventDefault();
+
+        props.onRegisterTeam({ name: teamName, color: teamColor })
+    }
+
     return (
-        <section className="collaborator-register">
-            <form className="collaborator__form" onSubmit={onSave}>
+        <section className="register-box">
+            <form className="register-box__form" onSubmit={onSaveCollaborator}>
                 <h2>Fill in the data to create the collaborator's card</h2>
 
                 <TextField
-                    label="Name"
+                    label="Collaborator Name"
                     placeholder="Type your name"
                     value={name}
                     required={true}
@@ -55,6 +64,27 @@ const Form = (props) => {
                 />
 
                 <Button>Create Card</Button>
+            </form>
+
+            <form className="register-box__form" onSubmit={onSaveTeam}>
+                <h2>Fill in the data to create a team panel</h2>
+
+                <TextField
+                    label="Name"
+                    placeholder="Type the name team"
+                    value={teamName}
+                    required
+                    onChanged={value => setTeamName(value)}
+                />
+                <TextField
+                    label="Color"
+                    placeholder="Type the color team"
+                    value={teamColor}
+                    required
+                    onChanged={value => setTeamColor(value)}
+                />
+
+                <Button>Create Team</Button>
             </form>
         </section>
     )

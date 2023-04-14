@@ -31,3 +31,9 @@ URL do curso -> [React - Como os Componentes Funcionam](https://cursos.alura.com
 * Como o React escuta uma mudança e porque precisamos de um state para isto.
 * Diferença de imperatividade e declaratividade.
 * Uso da biblioteca **hex-to-rgba** do **npm**.
+
+## 03 - Criando Funcionalidades
+* Passar parâmetros que são `true` por padrão.
+* A diferença entre two-way data binding e one-way data binding.
+* Por que o React utiliza one-way data binding.
+* Por que utilizar id é importante no React.
